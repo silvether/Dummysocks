@@ -396,6 +396,7 @@
 				B7C800221AFFA1310081704A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7C800231AFFA1310081704A /* Build configuration list for PBXNativeTarget "DummysocksTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +405,7 @@
 				B7C800251AFFA1310081704A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
