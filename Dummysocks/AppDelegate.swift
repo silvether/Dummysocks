@@ -25,7 +25,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem(title: "Stop", action: Selector("stopSocks:"), keyEquivalent: "c"))
         menu.addItem(NSMenuItem(title: "Restart", action: Selector("restartSocks:"), keyEquivalent: "r"))
         menu.addItem(NSMenuItem(title: "Edit Config", action: Selector("editConfig:"), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: "test", action: Selector("testSocks:"), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separatorItem())
         menu.addItem(NSMenuItem(title: "Quit Dummysocks", action: Selector("terminate:"), keyEquivalent: "q"))
         statusItem.menu = menu
