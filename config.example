@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>host</key>
-	<string></string>
+	<string>180.149.132.47</string>
 	<key>user</key>
-	<string></string>
+	<string>huoxy</string>
 	<key>private_key</key>
-	<string></string>
+	<string>/Users/huoxy/.ssh/id_rsa</string>
 </dict>
 </plist>
