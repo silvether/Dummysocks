@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B75262791B00C9880000D501 /* config.example in Resources */ = {isa = PBXBuildFile; fileRef = B75262781B00C9880000D501 /* config.example */; };
+		B790C9B51B00C127005DE414 /* balance in Resources */ = {isa = PBXBuildFile; fileRef = B790C9B41B00C127005DE414 /* balance */; };
 		B7C8000C1AFFA1310081704A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C8000B1AFFA1310081704A /* AppDelegate.swift */; };
 		B7C8000E1AFFA1310081704A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C8000D1AFFA1310081704A /* Images.xcassets */; };
 		B7C800111AFFA1310081704A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8000F1AFFA1310081704A /* MainMenu.xib */; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B75262781B00C9880000D501 /* config.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.example; sourceTree = "<group>"; };
+		B790C9B41B00C127005DE414 /* balance */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = balance; sourceTree = "<group>"; };
 		B7C800061AFFA1310081704A /* Dummysocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dummysocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C8000A1AFFA1310081704A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7C8000B1AFFA1310081704A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 		B7C8FFFD1AFFA1310081704A = {
 			isa = PBXGroup;
 			children = (
+				B75262781B00C9880000D501 /* config.example */,
+				B790C9B41B00C127005DE414 /* balance */,
 				B7C800081AFFA1310081704A /* Dummysocks */,
 				B7C800191AFFA1310081704A /* DummysocksTests */,
 				B7C800071AFFA1310081704A /* Products */,
@@ -186,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75262791B00C9880000D501 /* config.example in Resources */,
+				B790C9B51B00C127005DE414 /* balance in Resources */,
 				B7C8000E1AFFA1310081704A /* Images.xcassets in Resources */,
 				B7C800111AFFA1310081704A /* MainMenu.xib in Resources */,
 			);
