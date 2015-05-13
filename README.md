@@ -4,7 +4,10 @@ Dummysocks
 a dummy socks proxy without any server-side daemon
 
 # Screenshot
+## status bar
 ![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/menubar.png)
+
+## edit dialog
 ![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/editdialog.png)
 
 # Config
