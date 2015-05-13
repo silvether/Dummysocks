@@ -3,6 +3,10 @@ Dummysocks
 
 a dummy socks proxy without any server-side daemon
 
+# Screenshot
+![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/editdialog.png)
+![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/menubar.png)
+
 # Config
 
 after install dummysocks, you should configure it:
