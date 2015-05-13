@@ -4,8 +4,8 @@ Dummysocks
 a dummy socks proxy without any server-side daemon
 
 # Screenshot
-![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/editdialog.png)
 ![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/menubar.png)
+![Screenshot](https://raw.github.com/huoxy/Dummysocks/master/editdialog.png)
 
 # Config
 
@@ -26,4 +26,4 @@ click *Edit Config* button:
 ......
 ```
 
-*NOTE: private_key MUST BE a absolute path.*
+**NOTE: private_key MUST BE a absolute path.**
