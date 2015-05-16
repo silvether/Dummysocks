@@ -95,10 +95,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             let arguments = ["-d", "-m", "/usr/bin/ssh", "-D", "127.0.0.1:\(port)", "-i", "\(private_key)", "\(user)@\(host)"]
             self.runTask("/usr/bin/screen", arguments: arguments)
         }
-        
-        let balancePath = NSBundle.mainBundle().URLForResource("balance", withExtension: nil)?.path
-        let arguments = ["-b", "127.0.0.1", "8118", "127.0.0.1:7001", "127.0.0.1:7002", "127.0.0.1:7003", "127.0.0.1:7004", "127.0.0.1:7005"]
-        self.runTask(balancePath!, arguments: arguments)
+        let launchPath = NSBundle.mainBundle().URLForResource("balance", withExtension: nil)?.path
+        self.runTask(launchPath!, arguments: ["-b", "127.0.0.1", "8118", "127.0.0.1:7001", "127.0.0.1:7002", "127.0.0.1:7003", "127.0.0.1:7004", "127.0.0.1:7005"])
     }
     
     func stopSocks(sender: AnyObject) {
